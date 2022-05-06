@@ -1,7 +1,7 @@
 package com.baekjoon.ex01;
 
 public class Ex11 {
-
+//25083번 문제
 	public static void main(String[] args) {
 		
 		
