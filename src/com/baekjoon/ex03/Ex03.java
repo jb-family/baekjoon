@@ -14,15 +14,50 @@ public class Ex03 {
 		//출력 1부터 n까지 합을 출력한다.
 		
 		int num = sc.nextInt();
-		int result = 0;
+		int sum = 0;
 		for(int i = 1; i <= num; i++) {
-			result = result + i;
-			System.out.println(result);
+			
+			sum += i; // sum = sum + i
+			System.out.println("sum =" + sum);
 		}
 		
-
+		
 		
 		sc.close();
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
