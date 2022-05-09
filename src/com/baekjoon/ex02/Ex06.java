@@ -5,9 +5,24 @@ import java.util.Scanner;
 public class Ex06 {
 //2525번 문제
 	public static void main(String[] args) {
-		
-		
 		Scanner sc = new Scanner(System.in);
+		
+		int hour = sc.nextInt();
+		int minute = sc.nextInt();
+		int cookTime = sc.nextInt();
+		int sum = minute + cookTime;
+		if(minute < 60) {
+			hour += (sum/60);
+			
+			if(hour>=24) {
+				hour -= 24;
+			}
+			minute = sum - (60 * (sum / 60));
+		}
+		System.out.println(hour + " " + minute);
+
+/*
+ 	Scanner sc = new Scanner(System.in);
 		
 		int a = sc.nextInt();	//시간
 		int b = sc.nextInt();	//분
@@ -38,6 +53,14 @@ public class Ex06 {
 		
 		
 		sc.close();
+ */
+		
+		sc.close();
 	}
 
 }
+
+
+
+
+
