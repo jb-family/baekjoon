@@ -1,4 +1,4 @@
-package com.javaex.ex04;
+package com.baekjoon.ex04;
 
 import java.util.Arrays;
 import java.util.Scanner;
