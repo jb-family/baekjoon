@@ -39,7 +39,7 @@ public class Ex03 {
 		for(int i = 0; i < 10; i++) {//10번 반복
 			int index = 0;
 			
-			for(int j = 0; j < sumArray.length(); j++) {//8번 반복
+			for(int j = 0; j < sumArray.length(); j++) {//8번 반복 17037300
 				
 				if((sumArray.charAt(j) - '0') == i) {
 					//17037300
